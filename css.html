@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UNICAT|CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+#main
+{
+background-color:lavender;
+}
+#over
+{
+  margin-top:20px;
+margin-left:20px;
+margin-right:10px;
+background-color:ghostwhite;
+border-radius: 5px;
+}
+p,li
+{
+font-family: verdana;
+font-size:15px;
+margin-left: 20px;
+}
+.well
+  {
+    margin-left: 20px;
+    margin-right: 10px;
+  	border-radius: 5px;
+    height: 66px;
+    padding-top: 10px;
+    margin-top: 40px;
+  }
+  h3
+  {
+    font-size: 27px;
+  }
+  
+  .img-rectangle
+  {
+     margin-top: 65px;
+  }
+  .col-sm-2
+  {
+    padding-top: 7px;
+      font-family: cursive;
+      font-size: 22px;
+  }
+  #course
+  {
+    padding-top: 7px;
+      font-family: cursive;
+      font-size: 22px;
+  }
+  span
+    {
+        font-family: 'Sofia';
+        font-size: 25px;
+      
+    }
+  .tut
+  {
+    font-size: 18px;
+    font-family:Tahoma, sans-serif;
+  }
+  h4
+  {
+    color: azure;
+  }
+</style>
+</head>
+<body  id="main">
+<div class="container-fluid">
+  <div class="well" style="background-color: yellow">
+      <div class="row">
+      <div class="col-sm-1"id="unicat">
+        <span>UNICAT</span>
+      </div>
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-2">
+        <a href="home.html">Home</a>
+      </div>
+      <div class="col-sm-2" id="course">
+        <div class="dropdown">
+          <p data-toggle="dropdown"><a href="" style="font-size: 22px;font-family:cursive;">Courses</a></p>
+          <ul class="dropdown-menu">
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="bootstrap.html">Bootstrap</a></li>
+            <li><a href="javascript.html">Javascript</a></li>
+            <li><a href="php.html">Php</a></li>
+            <li><a href="jquery.html">jQuery</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <a href="aboutus.html">About Us</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="">Contact us</a>
+      </div>
+      </div>
+    </div>
+  <div class="row" id="over">
+    <div class="col-sm-7">
+<h3>CSS Tutorial</h3>
+<p>
+  CSS stands for Cascading Style Sheets. CSS is a standard style sheet language used for describing the presentation (i.e. the layout and formatting) of the web pages.
+</p>
+<p>
+  Prior to CSS, nearly all of the presentational attributes of HTML documents were contained within the HTML markup (specifically inside the HTML tags); all the font colors, background styles, element alignments, borders and sizes had to be explicitly described within the HTML.
+</p>
+<p>
+  As a result, development of the large websites became a long and expensive process, since the style information were repeatedly added to every single page of the website.  
+</p>
+<p>
+  To solve this problem CSS was introduced in 1996 by the World Wide Web Consortium (W3C), which also maintains its standard. CSS was designed to enable the separation of presentation and content. Now web designers can move the formatting information of the web pages to a separate style sheet which results in considerably simpler HTML markup, and better maintainability.
+</p>
+<p>
+  CSS3 is the latest version of the CSS specification. CSS3 adds several new styling features and improvements to enhance the web presentation capabilities.
+</p>
+</div>
+<div class="col-sm-5">
+<img class="img-rectangle" src="css.png" width="350" height="280">
+</div>
+<div class="col-sm-12">
+  <h3>What You Can Do with CSS</h3>
+  <p>There are lot more things you can do with CSS.</p>
+  <ul type="circle">
+  <li><p>You can easily apply same style rules on multiple elements.</p></li>
+  <li><p>You can control the presentation of multiple pages of a website with a single style sheet.</p></li>
+  <li><p>You can present the same page differently on different devices.</p></li>
+  <li><p>You can style dynamic states of elements such as hover, focus, etc. that isn't possible otherwise.</p></li>
+  <li><p>You can change the position of an element on a web page without changing the markup.</p></li>
+  <li><p>You can alter the display of existing HTML elements.</p></li>
+  <li><p>You can transform elements like scale, rotate, skew, etc. in 2D or 3D space.</p></li>
+  <li><p>You can create animations and transitions effects without using any JavaScript.</p></li>
+  <li><p>You can create print friendly version of your web pages.</p></li>
+  </ul>
+  <p>
+  The list does not end here, there are many other interesting things that you can do with CSS. You will learn about all of them in detail in upcoming chapters.
+    </p>
+  </div>
+  <div class="col-sm-12">
+    <h3> Three ways to apply CSS</h3>
+    <p>To use CSS with HTML document, there are three ways:
+    <ul>
+    <li><b>Inline:</b> Define CSS properties using style attribute in the HTML elements.</li>
+    <li><b>Internal or Embedded CSS: </b>Define CSS using style tag in <head> section.</li>
+    <li><b>External:</b>add a link to it in the head section of each HTML page.</li>
+    </ul>
+    </p>
+    </div>
+    
+    <div class="col-sm-12">
+      <h3>What This Tutorial Covers</h3>
+      <p>
+      This CSS tutorial series covers all the fundamentals of CSS, including the idea of selectors, methods of setting colors and backgrounds, way of formatting fonts and text, styling UI elements such as hyperlinks, lists, tables, etc. as well as the concept of CSS box model, and so on.
+      </p>
+      <p>
+      Once you're comfortable with the basics, you'll move on to next level that explains the way of setting dimension and alignment of elements, methods for positioning elements on a web page, using image sprites, as well as the concept of relative and absolute units, visual formatting model, display and visibility, layers, pseudo classes and elements, media dependent style sheets, and so on.
+      </p>
+      <p>
+      Finally, you'll explore some advanced features introduced in CSS3 like gradient colors, drop shadow effect, 2D and 3D transforms, alpha transparency, as well as the method of creating transition and animation effect, flex layouts, filter effect, the concept of media queries, and more.
+      </p>
+        </div>
+        <div class="col-sm-12">
+          <br>
+          <br>
+          <p class="tut">Watch our complete CSS tutorial!</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yfoY53QXEnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+        </div>  
+  </div>
+  </div>
+</div>
+<div class="col-sm-12" id="under" style="background-color:#072F5F;">
+  <br>
+  <div class="col-sm-4">
+  <h4>Our Journey</h4>
+        
+  <p><a href="aboutus.html" style="color:beige">About us</a></p>
+  <p><a href="termsofuse.html" style="color:beige">Terms of Use</a></p>
+  <p><a href="" style="color:beige">Privacy policy</a></p>
+  </div>
+  <div class="col-sm-4">
+    <h4>Contact</h4>
+    <p><a href="" style="color:beige">Contact</a></p>
+  </div>
+  <div class="col-sm-4">
+    <h4>Courses</h4>
+    <p><a href="html.html" style="color:beige">Html</a></p>
+    <p><a href="css.html" style="color:beige">CSS</a></p>
+    <p><a href="bootstrap.html" style="color:beige">Bootstrap</a></p>
+    <p><a href="javascript.html" style="color:beige">Javascript</a></p>
+    <p><a href="php.html" style="color:beige">Php</a></p>
+    <p><a href="jquery.html" style="color:beige">jQuery</a></p>
+  </div>
+</body>
+</html>
